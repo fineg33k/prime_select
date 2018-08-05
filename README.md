@@ -89,7 +89,7 @@ Also, make sure you do the lightdm.conf edit, If you try to force xrandr modeset
 
 # Nvidia Packages
 These are all the packages I have installed:
-
+```
 ii  glx-alternative-nvidia                0.8.6                                   amd64        allows the selection of NVIDIA as GLX provider
 ii  libegl-nvidia0:amd64                  390.77-1                                amd64        NVIDIA binary EGL library
 ii  libegl-nvidia0:i386                   390.77-1                                i386         NVIDIA binary EGL library
@@ -134,3 +134,4 @@ ii  nvidia-vulkan-common                  390.77-1                              
 ii  nvidia-vulkan-icd:amd64               390.77-1                                amd64        NVIDIA Vulkan installable client driver (ICD)
 ii  nvidia-vulkan-icd:i386                390.77-1                                i386         NVIDIA Vulkan installable client driver (ICD)
 ii  xserver-xorg-video-nvidia             390.77-1                                amd64        NVIDIA binary Xorg driver
+```
