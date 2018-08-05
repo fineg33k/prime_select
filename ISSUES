@@ -1,0 +1,1 @@
+It's Possible that on first open it won't have a mode.  This should be fixed by just toggling intel.  It is important that you clear any existing drivers in your xorg configuration 
