@@ -58,6 +58,8 @@ int main(int argc, char *argv[]) {
                 if (getVideoMode() == 1) {
 			printf("Using xrandr to setup modesetting across all monitors\n");
 			system("xrandr --setprovideroutputsource modesetting NVIDIA-0");
+			system("sleep 1");
+			system("xrandr --output eDP-1-1 --auto");
 		}
                 break;
             default:
