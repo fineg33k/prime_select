@@ -83,7 +83,7 @@ int main(int argc, char *argv[]) {
     GtkWidget       *buttonlabel;
     gtk_init(&argc, &argv);
     builder = gtk_builder_new();
-    gtk_builder_add_from_file (builder, "prime_switch.glade", NULL);
+    gtk_builder_add_from_file (builder, "/etc/prime_switch/prime_switch.glade", NULL);
     gtk_builder_connect_signals(builder, NULL);
     window = GTK_WIDGET(gtk_builder_get_object(builder, "window_main"));
     modelabel = GTK_WIDGET(gtk_builder_get_object(builder, "mode_label"));
