@@ -1,9 +1,9 @@
-#Prime Select
+# Prime Select
 
 Prime select was designed to allow you to switch between your Intel video card and Nvidia video card, it facilitates the writing of all the config files and finding of the video cards.
 It was designed and tested on Debian Sid (2018-08-05) Using the latest Nvidia-drivers.  I saw the need for this in Debian because Ubuntu already had a switching application, but I preferred to stick with Debian.
 
-##Building
+## Building
 A Couple Of Applications are required:
 
 1.  xrandr
@@ -87,7 +87,7 @@ That's it!  it's important to note that you MUST logout and log back in, if anyo
 
 Also, make sure you do the lightdm.conf edit, If you try to force xrandr modesetting with the intel driver only it won't go into X, prime_select -s fixes this issue by detecting the mode.
 
-#Nvidia Packages
+# Nvidia Packages
 These are all the packages I have installed:
 
 ii  glx-alternative-nvidia                0.8.6                                   amd64        allows the selection of NVIDIA as GLX provider
